@@ -31,7 +31,7 @@ $python3.11
 {'documentSentiment': {'score': 0.996954, 'label': 'SENT_POSITIVE', 'mixed': False, 'sentimentMentions': [{'span': {'begin': 0, 'end': 26, 'text': 'I love this new technology'}, 'sentimentprob': {'positive': 0.9941229, 'neutral': 0.0028645627, 'negative': 0.0030124863}}]}, 'targetedSentiments': {'targetedSentiments': {}, 'producerId': {'name': 'Aggregated Sentiment Workflow', 'version': '0.0.1'}}, 'producerId': {'name': 'Aggregated Sentiment Workflow', 'version': '0.0.1'}}
 >>> 
 ```
-To exit the Python shell, type exit() or press Ctrl+Z
+To exit the Python shell, type exit() or press Ctrl+Z.
 
 As the next step, the output is formatted as JSON. 
 ```
@@ -49,7 +49,7 @@ Type "help", "copyright", "credits" or "license" for more information.
 {'label': 'SENT_POSITIVE', 'score': 0.997183}
 ```
 
-Implemented a unittest using assertEqual and run the test
+Implemented a unittest using assertEqual and run the test.
 ```
 $ python3.11 test_sentiment_analysis.py
 ----------------------------------------------------------------------
@@ -57,6 +57,7 @@ Ran 1 test in 0.682s
 ```
 Make sure the directory is in this structure:
 directory structure:
+```
 practice_project/
 ├── SentimentAnalysis/
 │   ├── __init__.py
@@ -66,7 +67,20 @@ practice_project/
 ├── static/
 │   ├── mywebscript.js
 ├── server.py
+```
+To deploy the application, execute the file server.py from the terminal.
+```
+python3.11 server.py
+```
+!
+<img width="961" height="702" alt="Screenshot 2026-02-12 124723" src="https://github.com/user-attachments/assets/3da7d962-9933-4a75-922d-d07d02f56b20" />
+!
+<img width="976" height="636" alt="Screenshot 2026-02-12 130315" src="https://github.com/user-attachments/assets/57663403-ccad-4c72-8926-79e16c72fdae" />
 
+For static code analysis you can try:
+```
+pylint server.py
+```
+!
+<img width="669" height="50" alt="Screenshot 2026-02-12 132435" src="https://github.com/user-attachments/assets/1cf4ca3c-0ba0-46c4-9bf5-ac28a04500cc" />
 
-
-pylint server.py for static code analysis
