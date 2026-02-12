@@ -72,15 +72,15 @@ To deploy the application, execute the file server.py from the terminal.
 ```
 python3.11 server.py
 ```
-!
-<img width="961" height="702" alt="Screenshot 2026-02-12 124723" src="https://github.com/user-attachments/assets/3da7d962-9933-4a75-922d-d07d02f56b20" />
-!
-<img width="976" height="636" alt="Screenshot 2026-02-12 130315" src="https://github.com/user-attachments/assets/57663403-ccad-4c72-8926-79e16c72fdae" />
+
+<img width="%50" height="%50" alt="Screenshot 2026-02-12 124723" src="https://github.com/user-attachments/assets/3da7d962-9933-4a75-922d-d07d02f56b20" />
+
+<img width="%50" height="%50" alt="Screenshot 2026-02-12 130315" src="https://github.com/user-attachments/assets/57663403-ccad-4c72-8926-79e16c72fdae" />
 
 For static code analysis you can try:
 ```
 pylint server.py
 ```
-!
+
 <img width="669" height="50" alt="Screenshot 2026-02-12 132435" src="https://github.com/user-attachments/assets/1cf4ca3c-0ba0-46c4-9bf5-ac28a04500cc" />
 
